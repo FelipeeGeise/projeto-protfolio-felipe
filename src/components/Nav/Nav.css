@@ -1,0 +1,162 @@
+.information {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 1051px;
+  margin-left: 192px;
+  margin-top: 150px;
+}
+
+.titulo {
+  font-size: 64px;
+}
+
+.paragrafo-titulo {
+  font-size: 36px;
+}
+
+.button-Nav {
+  width: 280px;
+  height: 80px;
+  margin: 20px 0 0 201px;
+  border-radius: 83px;
+  background: linear-gradient(
+    to right,
+    rgba(19, 173, 199, 0.8),
+    rgba(105, 120, 209, 0.8),
+    rgba(148, 93, 214, 0.8)
+  );
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-Nav:hover{
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+ 
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+    
+    
+    margin-top: 150px; 
+    
+  }
+
+  .titulo {
+    font-size: 26px;
+  }
+
+  .paragrafo-titulo {
+    font-size: 16px;
+  }
+
+  .button-Nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 60px;
+    margin: 20px auto;
+    font-size: 26px;
+  }
+
+  @media (max-width: 425px) {
+    .information {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      color: white;
+      width: 90%; 
+      margin: 0 auto; 
+      margin-top: 100px; 
+    }
+  
+    .titulo {
+      font-size: 24px; 
+      text-align: center; 
+      margin-bottom: 10px; 
+    }
+  
+    .paragrafo-titulo {
+      font-size: 14px; 
+      text-align: center; 
+      margin-bottom: 20px; 
+    }
+  
+    .button-Nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 180px; 
+      height: 50px; 
+      font-size: 16px;
+      margin: 20px auto; 
+      border-radius: 40px; 
+    }
+  }
+  
+
+  /*.mobile-Menu {
+    display: block;
+  }
+
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin: 0 0 12px;
+    padding: 12px;
+    width: fit-content;
+    cursor: pointer;
+  }*/
+}
+
+@media (max-width: 375px) {
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 90%; 
+    margin: 0 auto; 
+    margin-top: 100px; 
+  }
+
+  .titulo {
+    font-size: 22px; 
+    text-align: center; 
+    margin-bottom: 10px; 
+  }
+
+  .paragrafo-titulo {
+    font-size: 14px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+
+  .button-Nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; 
+    height: 50px; 
+    font-size: 18px; 
+    margin: 20px auto; 
+    border-radius: 50px; 
+    
+  }
+}
+

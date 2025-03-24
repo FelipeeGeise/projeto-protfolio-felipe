@@ -1,0 +1,170 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:50px 10% ;
+}
+
+.footer-contact {
+  display: flex;
+  color: white;
+  gap: 300px;
+  font-size: 42px;
+  align-items: center;
+}
+.contact-number p{
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.contact-email p{
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 50px;
+  transition: transform 0.3s ease;
+}
+
+.footer-logo img:hover{
+    transform: scale(1.2);
+}
+
+
+.instagran-footer{
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column; 
+    align-items: center;
+    margin: 20px auto;
+  }
+
+  .footer-contact {
+    flex-direction: column; 
+    gap: 20px; 
+    text-align: center; 
+    font-size: 24px; 
+  }
+
+  .contact-number p,
+  .contact-email p {
+    font-size: 20px; 
+    margin: 5px 0; 
+  }
+
+  .footer-logo {
+    flex-direction: column; 
+    gap: 20px; 
+  }
+
+  .footer-logo img {
+    width: 50px; 
+    height: auto;
+  }
+}
+@media (max-width: 425px) {
+  footer {
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px auto; 
+    width: 100%; 
+  }
+
+  .footer-contact {
+    flex-direction: column; 
+    gap: 10px; 
+    text-align: center; 
+    font-size: 16px; 
+    margin-bottom: 15px;  
+  }
+
+  .contact-number p,
+  .contact-email p {
+    font-size: 14px; 
+    margin: 5px 0; 
+  }
+
+  .Logo{
+    gap: 50px;
+  }
+
+  .footer-logo {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 55px; 
+    margin-top: 15px; 
+  }
+
+  .footer-logo img {
+    
+    width: 35px; 
+    height: auto; 
+    margin: 5px auto; 
+  }
+
+  .footer-logo img:hover {
+    transform: scale(1.05); 
+  }
+
+  .instagran-footer {
+    background-color: #fff; 
+    border-radius: 5px; 
+    margin: 10px auto; 
+    width: 80%; 
+  }
+}
+
+
+@media (max-width: 375px) {
+  footer {
+    flex-direction: column; 
+    align-items: center; 
+    margin: 20px auto; 
+    width: 100%; 
+  }
+
+  .footer-contact {
+    flex-direction: column; 
+    gap: 15px; 
+    text-align: center; 
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
+
+  .contact-number p,
+  .contact-email p {
+    font-size: 16px; 
+    margin: 10px 0; 
+  }
+
+  .footer-logo {
+    flex-direction: column; 
+    gap: 20px; 
+    margin-top: 20px; 
+  }
+
+  .footer-logo img {
+    width: 40px; 
+    height: auto; 
+    margin: 10px auto; 
+  }
+
+  .footer-logo img:hover {
+    transform: scale(1.1); 
+  }
+
+  .instagran-footer {
+    background-color: #fff; 
+    border-radius: 5px; 
+    margin: 10px auto; 
+  }
+}
+
+

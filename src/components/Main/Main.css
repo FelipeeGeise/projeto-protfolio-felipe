@@ -1,0 +1,262 @@
+.tag-principal {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 100px 150px;
+  
+}
+.projeto-h1 {
+  font-size: 64px;
+  color: white;
+  margin-left: 500px;
+
+}
+
+.div-principal {
+  width: 550px;
+  height: 700px;
+  border: 1px solid #fbf9f9c4;
+  padding: 20px 20px;
+  border-radius: 83px 0;
+  margin-bottom: 100px;
+  box-shadow: 5px 5px 15px rgba(255, 254, 254, 0.778);
+}
+.div-img img {
+  width: 500px;
+  height: 266px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.div-letras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  
+}
+
+p {
+  font-size: 26px;
+  color: white;
+  margin-top: 0;
+  
+}
+.Button-main {
+  width: 200px;
+  height: 60px;
+  border-radius: 83px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(
+    to right,
+    rgba(19, 173, 199, 0.8),
+    rgba(105, 120, 209, 0.8),
+    rgba(148, 93, 214, 0.8)
+  );
+}
+
+
+
+.Button-main:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    width: 100%;
+    
+  }
+
+  .div-principal {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .projeto-h1 {
+    font-size: 32px; 
+    margin: 20px auto;
+  }
+
+  .div-img img {
+    width: 100%; 
+    height: auto;
+    border-radius: 80px 0 0 0;
+  }
+
+  .Button-main {
+    width: 100%; 
+    height: 50px; 
+    font-size: 16px; 
+  }
+  }
+
+  @media (max-width: 425px) {
+    .tag-principal {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    main {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      gap: 20px; 
+      width: 100%; 
+      padding: 10px; 
+    }
+  
+    .projeto-h1 {
+      font-size: 28px; 
+      text-align: center; 
+      margin: 20px auto; 
+    }
+  
+    .div-principal {
+      width: 90%; 
+      height: auto; 
+      padding: 15px; 
+      margin: 20px auto; 
+      border-radius: 20px 0; 
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
+    }
+  
+    .div-img img {
+      width: 100%; 
+      height: auto; 
+      border-radius: 10px; 
+      margin: 0 auto; 
+    }
+  
+    .div-letras {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      text-align: center; 
+    }
+  
+    h2 {
+      font-size: 24px; 
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 16px; 
+      margin-bottom: 10px; 
+    }
+  
+    .Button-main {
+      width: 90%; 
+      height: 45px; 
+      font-size: 16px; 
+      border-radius: 50px; 
+      margin: 15px auto; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .Button-main:hover {
+      opacity: 0.9; 
+    }
+  }
+  
+
+  @media (max-width: 375px) {
+    .tag-principal {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    main {
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      gap: 20px; 
+      width: 100%; 
+      padding: 0 10px;
+    }
+  
+    .projeto-h1 {
+      font-size: 24px; 
+      text-align: center; 
+      margin: 10px 0; 
+    }
+  
+    .div-principal {
+      width: 90%; 
+      height: auto; 
+      padding: 15px; 
+      margin: 20px auto; 
+      border-radius: 15px; 
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
+    }
+  
+    .div-img img {
+      width: 100%; 
+      height: auto; 
+      border-radius: 10px; 
+      margin: 0; 
+    }
+  
+    .div-letras {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    h2 {
+      font-size: 20px; 
+      margin-bottom: 10px; 
+    }
+  
+    p {
+      font-size: 14px; 
+      margin-bottom: 10px; 
+    }
+  
+    .Button-main {
+      width: 90%;  
+      height: 45px; 
+      font-size: 14px; 
+      border-radius: 50px; 
+      margin: 15px auto; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .Button-main:hover {
+      opacity: 0.9; 
+    }
+  }

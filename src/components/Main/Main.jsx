@@ -12,7 +12,7 @@ function Main() {
         {/*Projeto 1*/}
         <div className="div-principal">
           <div className="div-img">
-            <img src="./public/img-responsivo.png"/>
+            <img src="/img-responsivo.png"/>
           </div>
 
           <div className="div-letras">

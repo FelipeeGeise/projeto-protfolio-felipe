@@ -90,7 +90,7 @@ function Main() {
             className="Button-main"
             onClick={() =>
               window.open(
-                "https://responsivo-one-ruby.vercel.app/",
+                "https://projeto-landing-page-sandy.vercel.app/",
                 "_blank",
                 "noopener noreferrer"
               )

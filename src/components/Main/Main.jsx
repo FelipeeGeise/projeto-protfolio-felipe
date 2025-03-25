@@ -12,7 +12,7 @@ function Main() {
         {/*Projeto 1*/}
         <div className="div-principal">
           <div className="div-img">
-            <img src="/img-responsivo.png"/>
+            <img src="/img-responsivo.png" alt="Imagem do Projeto 1"/> 
           </div>
 
           <div className="div-letras">
@@ -43,7 +43,7 @@ function Main() {
         <div className="div-principal">
           <div className="div-img">
             <img
-              src="./public/proj-arquitetura.png"
+              src="/proj-arquitetura.png"
               alt="Imagem do Projeto 1"
             />
           </div>
@@ -75,7 +75,7 @@ function Main() {
 
         <div className="div-principal">
           <div className="div-img">
-            <img src="./public/Refri-respon.png" alt="Imagem do Projeto 1" />
+            <img src="/Refri-respon.png" alt="Imagem do Projeto 3" />
           </div>
 
           <div className="div-letras">
@@ -105,8 +105,8 @@ function Main() {
         <div className="div-principal">
           <div className="div-img">
             <img
-              src="./public/arquitetura-de-empresa.png"
-              alt="Imagem do Projeto 1"
+              src="/arquitetura-de-empresa.png"
+              alt="Imagem do Projeto 4"
             />
           </div>
 

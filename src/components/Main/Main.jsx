@@ -90,7 +90,7 @@ function Main() {
             className="Button-main"
             onClick={() =>
               window.open(
-                "https://projeto-landing-page-sandy.vercel.app/",
+                "https://responsivo-one-ruby.vercel.app/",
                 "_blank",
                 "noopener noreferrer"
               )
@@ -122,7 +122,7 @@ function Main() {
             className="Button-main"
             onClick={() =>
               window.open(
-                "https://desafio-responsividade-two.vercel.app/",
+                "https://projeto-landing-page-sandy.vercel.app/",
                 "_blank",
                 "noopener noreferrer"
               )
